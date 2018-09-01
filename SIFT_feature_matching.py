@@ -22,7 +22,7 @@ def SIFT_feature_matching(img1, img2, n=1000):
 
     matches = sorted(matches, key = lambda x:x.distance)
 
-    img=cv2.drawMatches(t1,kp1,t2,kp2,matches[:min(n,len(matches))],None,[0,0,255],flags=2)
+    result=cv2.drawMatches(t1,kp1,t2,kp2,matches[:min(n,len(matches))],None,[0,0,255],flags=2)
 
     plt.imshow(result, interpolation = 'bicubic')
     plt.axis('off')
