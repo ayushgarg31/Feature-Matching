@@ -26,3 +26,8 @@ The function in each of the code takes 2 images of the same scene with slight di
 
 ## Conclusion
 We have found that the our algorithm performs much better than the current state of the art algorithms in feature matching as can be seen in the images.
+
+## References
+* E. Rublee, V. Rabaud, K. Konolige and G. Bradski, "ORB: An efficient alternative to SIFT or SURF," 2011 International Conference on Computer Vision, Barcelona, 2011, pp. 2564-2571. doi: 10.1109/ICCV.2011.6126544
+* Calonder M., Lepetit V., Strecha C., Fua P. (2010) BRIEF: Binary Robust Independent Elementary Features. In: Daniilidis K., Maragos P., Paragios N. (eds) Computer Vision – ECCV 2010. ECCV 2010. Lecture Notes in Computer Science, vol 6314. Springer, Berlin, Heidelberg
+* Tali Dekel, Shaul Oron, Michael Rubinstein, Shai Avidan, William T. Freeman; The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015, pp. 2021-2029
